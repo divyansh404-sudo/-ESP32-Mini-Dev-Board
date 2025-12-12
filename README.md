@@ -211,9 +211,9 @@ Special thanks to:
 
 Found a bug? Have an improvement? Open an issue or submit a pull request!
 
-**Project maintained by:** [Your Name]  
-**Email:** your.email@example.com  
-**GitHub:** [@yourusername](https://github.com/yourusername)
+**Project maintained by:** Divyansh Tiwari  
+**Email:** divyanshtiwari435@gmail.com  
+**GitHub:** [divyansh404-sudo](https://github.com/divyansh404-sudo)
 
 ---
 
