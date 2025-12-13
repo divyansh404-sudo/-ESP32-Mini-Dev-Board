@@ -259,7 +259,7 @@ ESP32-Mini-Dev-Board/
 
 **Recommended Specifications:**
 - **Layers:** 2
-- **Dimensions:** ~50mm × 25mm
+- **Dimensions:** 67mm × 58mm
 - **Thickness:** 1.6mm
 - **Copper weight:** 1 oz (35µm)
 - **Surface finish:** HASL (lead-free) or ENIG
@@ -374,17 +374,43 @@ pio device monitor
 
 <div align="center">
 
-### Schematic Design
-![Schematic](hardware/renders/schematic.png)
+### Complete Schematic Design
+![Schematic](images/schematic-full.png)
+*Complete circuit schematic showing power stage, USB-UART bridge, ESP32 core, and auto-reset circuitry*
 
-### PCB Layout (Top View)
-![PCB Top](hardware/renders/pcb-top.png)
+---
 
-### 3D Render
-![3D Model](hardware/renders/3d-model.png)
+### 3D Render - Component View
+![3D Render Top](images/pcb-3d-render-top.png)
+*Professional 3D visualization showing component placement, silkscreen, and board layout*
+
+---
+
+### PCB Layout - X-Ray View
+![PCB Layout](images/pcb-layout-xray.png)
+*Complete PCB layout with RF keep-out zone (hatched area), ground plane, and optimized routing*
+
+---
+
+### Board Dimensions
+**67mm × 58mm** — Compact form factor optimized for prototyping
+
+---
+
+### Key Design Features Visible in Images:
+✅ ESP32-WROOM-32E module with antenna clearance  
+✅ Symmetrical Reset (SW1) and Boot (SW2) button placement  
+✅ USB-C connector with proper CC resistor network  
+✅ Auto-reset circuit (U1, Q1, Q2) for seamless programming  
+✅ CP2102N USB-UART bridge (U2) with polyfuse protection (F1)  
+✅ AP2112K-3.3 LDO regulator (U4) with filtering capacitors  
+✅ Status LEDs (D2-D6) for power and activity indication  
+✅ Professional silkscreen with "Design by-Divyansh" and "Made in India"  
+
+---
 
 ### Assembled Board
-*Photo coming soon after fabrication*
+*Photo coming soon after fabrication and assembly*
 
 </div>
 
