@@ -375,19 +375,19 @@ pio device monitor
 <div align="center">
 
 ### Complete Schematic Design
-![Schematic](images/schematic-full.png)
+![Schematic](images/schematic.png)
 *Complete circuit schematic showing power stage, USB-UART bridge, ESP32 core, and auto-reset circuitry*
 
 ---
 
 ### 3D Render - Component View
-![3D Render Top](images/pcb-3d-render-top.png)
+![3D Render Top](images/3dtop.png)
 *Professional 3D visualization showing component placement, silkscreen, and board layout*
 
 ---
 
 ### PCB Layout - X-Ray View
-![PCB Layout](images/pcb-layout-xray.png)
+![PCB Layout](images/pcblayout.png)
 *Complete PCB layout with RF keep-out zone (hatched area), ground plane, and optimized routing*
 
 ---
